@@ -1,6 +1,6 @@
 {
   "name": "mocha-dot-reporter-async",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Used when reporting from Gulp.  Outputs all test results at once to avoid an async console.log mess.",
   "main": "index.js",
   "keywords": ["mocha", "dot", "reporter", "async"],

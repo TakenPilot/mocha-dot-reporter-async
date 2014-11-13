@@ -3,7 +3,12 @@
   "version": "0.5.7",
   "description": "Used when reporting from Gulp.  Outputs all test results at once to avoid an async console.log mess.",
   "main": "index.js",
-  "keywords": ["mocha", "dot", "reporter", "async"],
+  "keywords": [
+    "mocha",
+    "dot",
+    "reporter",
+    "async"
+  ],
   "repository": "https://github.com/TakenPilot/mocha-dot-reporter-async",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
@@ -18,15 +23,14 @@
   "license": "ISC",
   "dependencies": {
     "diff": "^1.0.8",
-    "mocha": "^1.21.4"
+    "mocha": "^2.0.1"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "lodash": "^2.4.1",
-    "sinon": "^1.10.3",
-    "mocha": "^1.21.4",
-    "mocha-lcov-reporter": "0.0.1",
     "blanket": "^1.1.6",
-    "coveralls": "^2.11.2"
+    "chai": "^1.9.1",
+    "coveralls": "^2.11.2",
+    "lodash": "^2.4.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "sinon": "^1.10.3"
   }
 }
